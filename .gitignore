@@ -1,7 +1,6 @@
-tags
-test.sh
-.luarc.json
-nvim
+**/tags
+**/test.sh
+**/.luarc.json
 
-spell/
-lazy-lock.json
+**/spell/
+**/lazy-lock.json
