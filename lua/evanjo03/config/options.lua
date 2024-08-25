@@ -47,8 +47,8 @@ opt.splitbelow = true
 -- Sets how neovim will display certain whitespace characters in the editor.
 --  See `:help 'list'`
 --  and `:help 'listchars'`
-opt.list = true
-opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+-- opt.list = true
+-- opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
 -- Preview substitutions live, as you type!
 opt.inccommand = 'split'
@@ -64,3 +64,12 @@ opt.scrolloff = 10
 
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 opt.hlsearch = true
+
+-- tabs & indentation
+opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
+opt.shiftwidth = 2 -- 2 spaces for indent width
+opt.expandtab = true -- expand tab to spaces
+opt.autoindent = true -- copy indent from current line when starting new one
+
+-- linewidth
+-- opt.textwidth = 80
